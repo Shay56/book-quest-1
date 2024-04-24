@@ -33,7 +33,7 @@ public class pickupanddrop : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E)) 
             {
                 Rigidbody rb = carriedObject.GetComponent<Rigidbody>();
-                rb.isKinematic = true;
+                rb.isKinematic = false;
                 carriedObject.transform.SetParent(null);
                 carriedObject = null;
             }
