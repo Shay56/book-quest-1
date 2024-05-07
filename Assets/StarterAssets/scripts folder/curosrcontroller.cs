@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class curosrcontroller : MonoBehaviour
 {
+
     public Material glowMaterial; // Assign your glow material in the Inspector
 
     private Dictionary<GameObject, Material> originalMaterials = new Dictionary<GameObject, Material>();
@@ -87,4 +88,6 @@ public class curosrcontroller : MonoBehaviour
             }
         }
     }
+
+
 }
