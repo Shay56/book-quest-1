@@ -13,7 +13,7 @@ public class Grabbingscript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("E")) // Replace "Fire1" with your input for grabbing
+        if (Input.GetButtonDown("E"))
         {
             audioSource.Play();
         }
